@@ -1,1 +1,2 @@
 coba buat file 1
+ini saya cba buat di git local lalu saya push
