@@ -1,0 +1,4 @@
+.env
+backup
+logs
+docker-compose.yml
