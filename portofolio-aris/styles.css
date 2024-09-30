@@ -1,0 +1,52 @@
+/* Custom styles */
+.hero {
+  background: url(./129728.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* Styling for form icons */
+.form-group label i {
+  font-size: 1.2rem;
+}
+
+/* CSS untuk membuat gambar responsif di dalam card */
+.card {
+  position: relative;
+  overflow: hidden; /* Menyembunyikan bagian gambar yang melampaui batas card */
+}
+
+.card-img-top {
+  width: 100%; /* Memastikan gambar mengisi lebar card */
+  height: auto; /* Menjaga rasio aspek gambar */
+  transition: transform 0.3s ease; /* Menambahkan efek transisi saat zoom */
+}
+
+.card-img-top:hover {
+  transform: scale(1.1); /* Zoom-in gambar saat hover */
+}
+
+/* Gaya untuk modal */
+.modal-content {
+  border-radius: 10px; /* Membuat sudut modal lebih membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan pada modal */
+}
+
+.modal-header {
+  background-color: #343a40; /* Warna latar belakang header modal */
+  color: #fff; /* Warna teks header modal */
+  border-bottom: 1px solid #dee2e6; /* Garis bawah pada header */
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6; /* Garis atas pada footer modal */
+}
+
+.modal-body {
+  padding: 2rem; /* Menambah padding pada badan modal */
+  margin-bottom: 1.5rem;
+}
+
+.img-fluid {
+  border-radius: 10px; /* Membuat sudut gambar lebih membulat */
+  border: 1px solid #dee2e6; /* Memberi border tipis pada gambar */
+}
